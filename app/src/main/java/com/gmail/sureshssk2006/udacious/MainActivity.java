@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btn = (Button)findViewById(R.id.spotify_streamer);
+
         //btn.setOnClickListener(this);
     }
 
