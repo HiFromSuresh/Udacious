@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Udacious</string>
     <string name="hello_world">My Nanodegree Apps!</string>
+    <string name="capstone">Capstone: My Own App</string>
+    <string name="xyzReader">XYZ Reader</string>
+    <string name="buildItBigger">Build It Bigger</string>
+    <string name="libraryApp">Library App</string>
+    <string name="scoresApp">Scores App</string>
+    <string name="spotifyStreamer">Spotify Streamer</string>
 </resources>

@@ -16,64 +16,40 @@
         android:layout_margin="90dp">
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Spotify Streamer"
+            style="@style/btnNormal"
+            android:text="@string/spotifyStreamer"
             android:id="@+id/spotify_streamer"
-            android:onClick="spotifyStreamer"
-            android:background="#F08C35"
-            android:elevation="16dp"/>
+            android:onClick="spotifyStreamer"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Scores App"
+            style="@style/btnNormal"
+            android:text="@string/scoresApp"
             android:id="@+id/scores_app"
-            android:onClick="scoresApp"
-            android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:elevation="16dp"/>
+            android:onClick="scoresApp"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Library App"
+            style="@style/btnNormal"
+            android:text="@string/libraryApp"
             android:id="@+id/library_app"
-            android:onClick="libraryApp"
-            android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:elevation="16dp"/>
+            android:onClick="libraryApp"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Build It Bigger"
+            style="@style/btnNormal"
+            android:text="@string/buildItBigger"
             android:id="@+id/build_it_bigger"
-            android:onClick="buildItBigger"
-            android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:elevation="16dp"/>
+            android:onClick="buildItBigger"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="XYZ Reader"
+            style="@style/btnNormal"
+            android:text="@string/xyzReader"
             android:id="@+id/xyz_reader"
-            android:onClick="xyzReader"
-            android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:elevation="16dp"/>
+            android:onClick="xyzReader"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="Capstone: My Own App"
+            android:text="@string/capstone"
             android:textColor="@android:color/white"
             android:id="@+id/my_own_app"
             android:onClick="myOwnApp"
