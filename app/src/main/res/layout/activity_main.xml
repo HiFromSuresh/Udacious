@@ -53,7 +53,7 @@
             android:textColor="@android:color/white"
             android:id="@+id/my_own_app"
             android:onClick="myOwnApp"
-            android:background="#D50000"
+            android:background="@color/colorBtnCapstone"
             android:layout_marginTop="5dp"
             android:elevation="16dp"/>
 
